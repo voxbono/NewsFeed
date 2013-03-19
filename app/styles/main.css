@@ -1,0 +1,55 @@
+.no-list-style {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.center {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.bottom-space-big {
+	margin-bottom: 15px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.inline-block {
+	display: inline;
+}
+
+@media only screen and (max-width: 1000px) {
+	.inline-block
+	{
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: .8em;
+	}
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	h4.newsHeader {
+		font-size: 1em;
+	}
+}
+
+
+
+
+
